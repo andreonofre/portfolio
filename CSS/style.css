@@ -74,7 +74,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .home-img img {
@@ -142,4 +141,84 @@ span {
 .btn:hover{
   box-shadow: none;
 
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: var(--bg-second-color);
+
+}
+
+.sobre-img img {
+    width: 35vw;
+}
+
+
+.topo {
+    text-align: center;
+    font-size: 4.5rem;
+
+}
+
+.sobre-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+
+
+.sobre-content h3{
+    font-size: 2.6rem;
+}
+
+
+.sobre-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.hobby h2 {
+    margin-bottom: 5rem;
+}
+
+.hobby-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+}
+
+
+.hobby-container .hobby-box {
+    flex: 1 1 30rem;
+    background: var(--bg-second-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);   
+    transition: 0.5s ease; 
+}
+
+.hobby-container .hobby-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02) ;
+}
+
+.hobby-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+
+}
+
+.hobby-box h3 {
+    font-size: 2.6rem;
+}
+
+.hobby-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
 }
