@@ -399,11 +399,74 @@ span {
 
 /* RESPONSIVIDADE */
 
-@media (max-width: 1200px) {
+@media (min-width: 1400px) {
+    html {
+        font-size: 80%;
+    }
+
+    section .portfolio {
+        min-height: 100vh;
+        padding: 10rem 9% .5rem;
+
+    }
+
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        align-items: center;
+        gap: 2.5rem;
+    
+    }
+    
+    .portfolio-layer p {
+        font-size: 1.6rem;
+        margin: .3rem 0 1rem;
+    }
+    
+    section .contact {
+        min-height: 100vh;
+        padding: 10rem 9% .5rem;
+        margin-bottom: 20px;
+
+    }
+} 
+@media (max-width: 1201px) {
+    html {
+        font-size: 60%;
+    }
+
+    section .portfolio {
+        min-height: 100vh;
+        padding: 10rem 9% .5rem;
+
+    }
+
+    .portfolio-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 2.5rem;
+    
+    }
+    
+    .portfolio-layer p {
+        font-size: 1.6rem;
+        margin: .3rem 0 1rem;
+    }
+    
+    section .contact {
+        min-height: 100vh;
+        padding: 10rem 9% .5rem;
+        margin-bottom: 20px;
+
+    }
+} 
+
+/* @media (max-width: 1200px) {
     html {
         font-size: 55%;
     }
-}
+} */
 
 @media (max-width: 991px) {
     .header {
@@ -421,6 +484,11 @@ span {
     .portfolio {
         padding-bottom: 7rem;
     }
+
+    .contact {
+        min-height: auto;
+    }
+
     footer {
         padding: 10rem 3%;
     }
@@ -500,5 +568,15 @@ span {
 @media (max-width: 617px) {
     .portfolio-container {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
     }
 }
