@@ -37,3 +37,37 @@ window.onscroll = () => {
     menuIcon.classList.remove("bx-x");
     navbar.classList.remove("active");
 };
+
+
+// EFEITO SCROOL
+
+
+ScrollReveal({ 
+    
+    // reset: true,
+    distance: "80px",
+    duration: 2000,
+    deley: 200,
+
+});
+
+
+
+ScrollReveal().reveal(".home-content, .sobre-content", { origin: "top" });
+
+ScrollReveal().reveal(".home-img, .hobby-container, .portfolio-box, .contact form", { origin: "bottom" });
+
+ScrollReveal().reveal(".home-content h1, .sobre-img", { origin: "left" });
+
+ScrollReveal().reveal(".home-content p, .sobre-content", { origin: "right" });
+
+
+// TEXTO AUTO
+
+const typed = new Typed(".text-auto", {
+    strings:  ["Desenvolvedor..."],
+    typeSpeed: 100,
+    // backSpeed: 100,
+    backDelay: 1000,
+    loop: true,
+})
