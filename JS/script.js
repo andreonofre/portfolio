@@ -28,7 +28,6 @@ window.onscroll = () => {
         };
     })
 
-
     let header = querySelector("header");
 
     header.classList.toggle("sticky", window.scrollY > 100);
@@ -38,9 +37,7 @@ window.onscroll = () => {
     navbar.classList.remove("active");
 };
 
-
 // EFEITO SCROOL
-
 
 ScrollReveal({ 
     
@@ -51,8 +48,6 @@ ScrollReveal({
 
 });
 
-
-
 ScrollReveal().reveal(".home-content, .sobre-content", { origin: "top" });
 
 ScrollReveal().reveal(".home-img, .hobby-container, .portfolio-box, .contact form", { origin: "bottom" });
@@ -60,7 +55,6 @@ ScrollReveal().reveal(".home-img, .hobby-container, .portfolio-box, .contact for
 ScrollReveal().reveal(".home-content h1, .sobre-img", { origin: "left" });
 
 ScrollReveal().reveal(".home-content p, .sobre-content", { origin: "right" });
-
 
 // TEXTO AUTO
 

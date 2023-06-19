@@ -672,6 +672,9 @@ span {
 }
 
 @media (max-width: 720px) {
+    #menu-icon {
+        display: block;
+    }
     .portfolio-box .portfolio-layer h4 {
         font-size: 2.5rem;
     }
@@ -682,6 +685,9 @@ span {
 }
 
 @media (max-width: 650px) {
+    #menu-icon {
+        display: block;
+    }
     .portfolio-container {
         grid-template-columns: 1fr;
     }
@@ -701,6 +707,10 @@ span {
 }
 
 @media (max-width: 450px) {
+    #menu-icon {
+        display: block;
+    }
+
     html {
         font-size: 50%;
     }
